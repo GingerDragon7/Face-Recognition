@@ -12,8 +12,7 @@ close all
 
 % You can customize and fix initial directory paths
 TrainDatabasePath = uigetdir( pwd, 'Select training database path' );
-video = videoinput('winvideo',1);
-set( video, 'ReturnedColorspace', 'RGB');
+
 k = getsnapshot(video);
 imwrite(k,'TestImage.jpg');
 TestImage = strcat(pwd,'\','TestImage.jpg');
