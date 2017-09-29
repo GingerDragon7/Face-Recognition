@@ -1,7 +1,7 @@
-##'Eigenface' Face Recognition System
+## 'Eigenface' Face Recognition System
  
 
-###Summary
+### Summary
 * This package implements a well-known PCA-based face recognition 
 method, which is called 'Eigenface'. 
 * In general, follow this order:
